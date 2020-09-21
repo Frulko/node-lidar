@@ -1,0 +1,92 @@
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+*.map
+
+# Logs and databases #
+######################
+*.log
+*.sql
+
+# OS generated files #
+######################
+**.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+
+# Vim generated files #
+######################
+*.un~
+
+# SASS #
+##########
+**/.sass-cache
+**/.sass-cache/*
+**/.map
+
+# Composer #
+##########
+vendors/composer/
+!assets/js/vendor/
+wpcs/
+composer.lock
+
+# Bower #
+##########
+assets/bower_components/*
+
+# Codekit #
+##########
+/codekit-config.json
+*.codekit
+**.codekit-cache/*
+
+# NPM #
+##########
+node_modules
+
+# Compiled Files and Build Dirs #
+##########
+/README.html
+/build/
+
+# PhpStrom Project Files #
+.idea/
+library/vendors/composer
+Rails
+
+
+# where all image exported from figma will go
+export
+
+data
+
+# VSCODE extension for local versionning of files
+.history
+
+# Remove cache (sass generation or pre-bundle for time saving)
+.cache
+
+
+# Test
+server
+
+# fonts/
+# assets/*
+# !assets/plop/
+
+# assets/bar/* #exclude all
+# !assets/bar/ #include the folder (all inside are still excluded)
+# !assets/bar/plugin2/ #include the plugin folder inside (it will include files too)
+# !assets/bar/plugin3/ #include another plugin folder
